@@ -39,7 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				75FCF3651DA51F8B007F99B4 /* icontest */,
-				75FCF3641DA51F8B007F99B4 /* Products */,
+				75FCF3781DA5274A007F99B4 /* New Group */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +62,14 @@
 				75FCF3721DA51F8B007F99B4 /* Info.plist */,
 			);
 			path = icontest;
+			sourceTree = "<group>";
+		};
+		75FCF3781DA5274A007F99B4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				75FCF3641DA51F8B007F99B4 /* Products */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					75FCF3621DA51F8B007F99B4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9GW39JHD5D;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9GW39JHD5D;
 				INFOPLIST_FILE = icontest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.alphacamp.icontest;
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9GW39JHD5D;
 				INFOPLIST_FILE = icontest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.alphacamp.icontest;
@@ -299,6 +310,7 @@
 				75FCF3771DA51F8B007F99B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
